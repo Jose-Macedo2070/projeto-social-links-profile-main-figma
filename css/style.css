@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 27rem;
+    height: 43rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sub_titulo {
+    color: hsl(75, 94%, 57%);
+}
+
+.avatar_jessica {
+    border-radius: 10rem;
+    width: 6rem;
+    margin: 1rem;
+}
+
+.menu_links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ .botoes {
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 23rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color:hsl(0, 0%, 8%);
+}
+
+
